@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+$theme-colors: ("primary": #17d6a6,
+  "secondary": #1697be);
+.bg-nav {
+  background-image: linear-gradient(to right, #17d6a6, #1697be);
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cinzel-decorative {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.img-home {
+  background-image: url("../images/663894.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.cards-custom {
+  margin-top: -50px !important;
+  position: relative;
+  z-index: 1;
+}
+// col-xs
+@media (max-width: 576px) {
+}
+// col-md
+@media (min-width: 576px) {
+}
+// col-sm
+@media (min-width: 768px) {
+}
+// col-lg
+@media (min-width: 992px) {
+}
+// col-xl
+@media (min-width: 1200px) {
+}
+@import '../node_modules/bootstrap/scss/bootstrap';
